@@ -26,12 +26,13 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Medical Clinic Website",
-    image: project1,
+    title: "Real Estate Website",
+    image: project4,
     description:
-      "A clinical website that consists of a receptionist portal & doctor portal which has a single login page for both portals, Receptionists can register a new patient & perform CRUD operations, and Doctors can view registered patients & view the graph that represents the number of patients registered vs days.",
-    technologies: ["Ruby", "Ruby on Rails", "PostgreSQL"],
-    url: "https://www.saasframe.io/examples/butter-loading-screen-b"
+      "This is an apartment webapp that allows a user to sign up, log in, and make leases on particular apartments.",
+    technologies: ["Ruby", "Ruby on Rails", "Javascript", "React.js", "Redux", "PostgreSQL"],
+    url: "https://lease-a-home-frontend.onrender.com"
+
   },
   {
     title: "To-Do List App",
@@ -51,13 +52,12 @@ export const PROJECTS = [
 
   },
   {
-    title: "Real Estate Website",
-    image: project4,
+    title: "Medical Clinic Website | In progress",
+    image: project1,
     description:
-      "This is an apartment webapp that allows a user to sign up, log in, and make leases on particular apartments.",
-    technologies: ["Ruby", "Ruby on Rails", "Javascript", "React.js", "Redux", "PostgreSQL"],
-    url: "https://lease-a-home-frontend.onrender.com"
-
+      "A clinical website that consists of a receptionist portal & doctor portal which has a single login page for both portals, Receptionists can register a new patient & perform CRUD operations, and Doctors can view registered patients & view the graph that represents the number of patients registered vs days.",
+    technologies: ["Ruby", "Ruby on Rails", "PostgreSQL"],
+    url: "https://www.saasframe.io/examples/butter-loading-screen-b"
   },
 ];
 
