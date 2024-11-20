@@ -9,7 +9,7 @@ My portfolio site
 
 ## Live Demo
 
-[Live Demo Link Loading](https://personal-web-zar5.onrender.com/)
+[Live Demo](https://personal-web-zar5.onrender.com/)
 
 
 ## Getting Started
