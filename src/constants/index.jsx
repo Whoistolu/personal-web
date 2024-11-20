@@ -30,28 +30,34 @@ export const PROJECTS = [
     image: project1,
     description:
       "A clinical website that consists of a receptionist portal & doctor portal which has a single login page for both portals, Receptionists can register a new patient & perform CRUD operations, and Doctors can view registered patients & view the graph that represents the number of patients registered vs days.",
-    technologies: ["Ruby", "Ruby on Rails", "PostgreSQL"]
+    technologies: ["Ruby", "Ruby on Rails", "PostgreSQL"],
+    url: "https://www.saasframe.io/examples/butter-loading-screen-b"
   },
   {
     title: "To-Do List App",
     image: project2,
     description:
       "A TO DO List App Using vanilla JavaScript, HTML and CSS. In this JavaScript Project I used the Local Storage to store the task list in the web browser, so that if you close and restart the browser it will still display your saved tasks.",
-    technologies: ["Javascript", "HTML", "CSS"]
+    technologies: ["Javascript", "HTML", "CSS"],
+    url: "https://whoistolu.github.io/ToDo/"
   },
   {
-    title: "Portfolio Website",
+    title: "Book Store",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["Ruby", "Ruby on Rails", "Javascript", "React.js", "PostgreSQL"]
+      "A web app book library that allows you add and and remove books",
+    technologies: ["Javascript", "React.js", "Redux"],
+    url: "https://bookstore-poos.onrender.com/"
+
   },
   {
     title: "Real Estate Website",
     image: project4,
     description:
       "This is an apartment webapp that allows a user to sign up, log in, and make leases on particular apartments.",
-    technologies: ["Ruby", "Ruby on Rails", "Javascript", "React.js", "Redux", "PostgreSQL"]
+    technologies: ["Ruby", "Ruby on Rails", "Javascript", "React.js", "Redux", "PostgreSQL"],
+    url: "https://lease-a-home-frontend.onrender.com"
+
   },
 ];
 
