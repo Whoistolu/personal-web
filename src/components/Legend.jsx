@@ -1,6 +1,6 @@
 import React from 'react'
 import { LEGEND_CONTENT } from '../constants';
-import profilepicture from '../assets/profilep.png'
+import profilepicture from '/assets/profilep.png'
 import { motion } from "framer-motion";
 
 const delayContainer = (delay) => ({
@@ -14,7 +14,7 @@ const delayContainer = (delay) => ({
 
 const Legend = () => {
   return (
-    <div className='border-b border-neutral-500 pb-4 lg:mb-35'>
+    <div className='pb-4 border-b border-neutral-500 lg:mb-35'>
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2">
           <div className="flex flex-col items-center lg:items-start">
@@ -27,14 +27,14 @@ const Legend = () => {
             variants={delayContainer (0.5)}
             initial="hidden"
             animate="visible"
-            className='bg-gradient-to-r from-orange-400 via-slate-500 to-purple-500 bg-clip-text tracking-tight text-4xl text-transparent'>
+            className='text-4xl tracking-tight text-transparent bg-gradient-to-r from-orange-400 via-slate-500 to-purple-500 bg-clip-text'>
               Full Stack Dveloper
             </motion.span>
             <motion.p
             variants={delayContainer (1)}
             initial="hidden"
             animate="visible"
-            className='my-2 max-w-xl py-6 font-light tracking-tighter'>{LEGEND_CONTENT}</motion.p>
+            className='max-w-xl py-6 my-2 font-light tracking-tighter'>{LEGEND_CONTENT}</motion.p>
           </div>
         </div>
         <div className='lg:w-1/2 lg:p-8'>
