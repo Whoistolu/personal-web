@@ -33,6 +33,14 @@ export const EXPERIENCES = [
     description: `Helped over 980 students debug their codes and understand the technical concepts`,
     technologies: ["Ruby", "Ruby on Rails", "Javascript", "React.js", "PostgreSQL"],
   },
+  {
+    year: "Oct. 2019 - Apr. 2021",
+    role: "Full Stack Developer",
+    company: "Shup8",
+    description: `Implemented secure authentication and authorization mechanisms for
+                customer and Admin portals`,
+    technologies: ["Ruby", "Ruby on Rails", "Javascript", "React.js", "PostgreSQL"],
+  },
 ];
 
 export const PROJECTS = [
