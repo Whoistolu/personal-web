@@ -9,6 +9,14 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
+    year: "Nov. 2024 - Mrch. 2025",
+    role: "Full Stack Web Developer ",
+    company: "Freebyz Technology",
+    description: `Developed robust back-end systems with Ruby on Rails to handle user
+                management, task assignments, payment processing, and analytics.`,
+    technologies: ["Ruby", "Ruby on Rails", "Javascript", "React.js", "PostgreSQL, Tailwind CSS"],
+  },
+  {
     year: "Nov. 2022 - Oct. 2024",
     role: "Full Stack Developer",
     company: "Edutech Global",
@@ -25,6 +33,24 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "Freebyz Website",
+    image: project5,
+    description:
+      "Freebyz technology's official website",
+    technologies: ["Javascript", "React.js", "Redux", "PostgreSQL, Tailwind CSS"],
+    url: "https://freebyz.com/"
+
+  },
+  {
+    title: "Studio Web App",
+    image: project6,
+    description:
+      "Freebyz technology's official website",
+    technologies: ["Javascript", "React.js", "Redux", "PostgreSQL, Tailwind CSS, Ruby on Rails"],
+    url: "https://www.studioapp.net/"
+
+  },
   {
     title: "Real Estate Website",
     image: project4,
