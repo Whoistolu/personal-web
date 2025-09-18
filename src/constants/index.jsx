@@ -2,6 +2,9 @@ import project1 from "/assets/projects/project-1.jpg";
 import project2 from "/assets/projects/project-2.jpg";
 import project3 from "/assets/projects/project-3.jpg";
 import project4 from "/assets/projects/project-4.jpg";
+import project5 from "/assets/projects/project-5.jpg";
+import project6 from "/assets/projects/project-6.jpg";
+
 
 export const LEGEND_CONTENT = `A proficient Full-Stack Developer with over 3+ years of experience in creating robust and intuitive web applications, covering both front-end interfaces and back-end functionality. I’m skilled in a wide range of technologies, including Ruby on Rails, React, TypeScript, HTML/CSS, PostgreSQL, and MySQL, with a focus on delivering seamless user experiences and reliable, scalable backend systems.`;
 
